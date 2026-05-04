@@ -11,7 +11,7 @@
 
 ## 📖 Sobre o Projeto
 
-O **Chatbot Kauan** é uma aplicação web desenvolvida em Python que utiliza o mais recente SDK oficial do Google (`google-genai`) para interagir com o modelo **Gemini 2.5 Flash**. O grande diferencial deste assistente é a sua conexão com a ferramenta nativa de pesquisa do Google (Search Grounding), permitindo que ele cruze dados, pesquise informações atuais e traga respostas precisas sobre eventos recentes que modelos tradicionais offline não conseguem responder.
+O **Chatbot Kauan** é uma aplicação web desenvolvida em Python que utiliza o mais recente SDK oficial do Google (`google-genai`) para interagir com o modelo **Gemini 2.0 Flash**. O grande diferencial deste assistente é a sua conexão com a ferramenta nativa de pesquisa do Google (Search Grounding), permitindo que ele cruze dados, pesquise informações atuais e traga respostas precisas sobre eventos recentes que modelos tradicionais offline não conseguem responder.
 
 Tudo isso envelopado em uma interface limpa construída com **Streamlit**, focada na melhor experiência de usuário (UX).
 
