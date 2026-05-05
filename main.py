@@ -69,7 +69,7 @@ if texto_usuario:
     try:
         # Inicia o chat
         chat = client.chats.create(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             config=configuracao,
             history=historico_gemini
         )
@@ -92,6 +92,6 @@ if texto_usuario:
     
     except Exception as e:
         if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
-            st.error("⏳ Opa! Muitas pessoas estão usando o chatbot agora e atingimos o limite gratuito do Google. Por favor, espere 1 minutinho e tente novamente!")
+            st.error("⏳ Opa! Muitas pessoas estão usando o chatbot agora e atingimos o limite gratuito do Google. Por favor, espere um momento e tente novamente!")
         else:
             st.error(f"Erro ao chamar o Gemini: {e}")
