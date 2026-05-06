@@ -68,7 +68,7 @@ if texto_usuario:
     try:
         # Inicia o chat com histórico garantidamente correto e alternado
         chat = client.chats.create(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             config=configuracao,
             history=historico_gemini
         )
